@@ -1,0 +1,27 @@
+body, #quote, #author {
+    display: flex;
+    justify-content: center;
+}
+
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 50px;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+#quote {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 35px;
+}
+
+#author {
+    margin-top: 10px;
+    font-family: 'Aboreto', cursive;
+    color: grey;
+    font-size: 25px;
+}
